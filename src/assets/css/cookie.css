@@ -1,0 +1,75 @@
+.cookie-modal {
+  position: fixed;
+  bottom: 20px;
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: white;
+  border: 1px solid #ccc;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  z-index: 1000;
+  width: 400px;
+  text-align: center;
+}
+
+.cookie-modal-content {
+  margin: 0;
+  padding: 0;
+}
+
+.cookie-modal-buttons {
+  margin-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  gap: 10px; /* Añade espacio entre los botones */
+}
+
+.cookie-modal button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #28a745;
+  color: white;
+  cursor: pointer;
+}
+
+.cookie-modal button:hover {
+  background-color: #218838;
+}
+
+.cookie-modal button:nth-child(2) {
+  background-color: #dc3545;
+}
+
+.cookie-modal button:nth-child(2):hover {
+  background-color: #c82333;
+}
+
+.cookie-preferences {
+  margin-top: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px; /* Añade espacio entre los botones */
+}
+
+.cookie-preferences button {
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  color: white;
+}
+
+.cookie-preferences button.on {
+  background-color: #28a745;
+}
+
+.cookie-preferences button.on:hover {
+  background-color: #218838;
+}
+
+.cookie-preferences button.off {
+  background-color: #dc3545;
+}
+
+.cookie-preferences button.off:hover {
+  background-color: #c82333;
+}
