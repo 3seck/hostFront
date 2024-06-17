@@ -151,7 +151,7 @@ export const Profile = () => {
                     </div>
                 </div>
 
-                <h2 className='tituloPublications'>Tus publicaciones</h2>
+                <h2 className='tituloPublications'>Publicaciones</h2>
             </header>
 
             

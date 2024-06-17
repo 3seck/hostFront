@@ -56,7 +56,7 @@ export const Feed = () => {
         <>
             <header className="content__header">
                 <h1 className="content__title">Publicaciones</h1>
-                <button className="content__button" onClick={() => getPublications(1, true)}>Mostrar nuevas</button> {/* Botón para mostrar nuevas publicaciones */}
+               
             </header>
 
             <PublicationList
