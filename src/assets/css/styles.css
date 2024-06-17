@@ -167,7 +167,7 @@ body {
 .content__header, .aside__header{
     width: 100%;
     border-bottom: 1px solid var(--color-border-headers);
-    margin-top: 1rem;
+    margin-top: 2rem;
     margin-bottom: 2rem;
     padding-bottom: 1rem;
     display: flex;
